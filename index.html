@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PH Tube</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@3.6.4/dist/full.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body>
+    <header class="mt-12">
+        <div class="">
+            <div class="flex items-center justify-around bg-base-100">
+                <div>
+
+                    <img src="images/Logo.png">
+                </div>
+                <div>
+                    <button onclick="sortByViews()" class="bg-[#FF1F3D] text-white p-2 rounded-xl font-bold">Sort by
+                        view</button>
+                </div>
+                <div>
+                    <a class="btn bg-[#FF1F3D] text-white font-bold" href="blog.html">Blog</a>
+
+                    <!-- for go to new tab -->
+                    <!-- target="_blank" -->
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+
+        <div id="tab-container" class="mt-12 tabs flex items-center justify-center">
+        </div>
+
+        <div id="card-container" class="mt-12 grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 lg:ml-10 ml-4">
+
+        </div>
+        <div id="card-container2" class="mt-12 flex items-center justify-center">
+
+        </div>
+
+    </main>
+
+    <script src="index.js"></script>
+    <script src="sorting.js"></script>
+</body>
+
+</html>
